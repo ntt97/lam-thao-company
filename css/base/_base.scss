@@ -1,0 +1,23 @@
+*{
+    font-family: Tahoma,"Helvetica Neue",Helvetica,sans-serif
+}
+
+body{
+	background-color: #fff;
+}
+.main,.footer {
+	background-color: #fff;
+}
+
+.container {
+    width: 100% !important;
+    max-width: 1280px !important;
+}
+
+ul{
+	list-style-type: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.p-0{padding: 0}

@@ -1,0 +1,93 @@
+.footer{
+	background: $bg_default;
+	&-top{
+		padding: 0 20px;
+		.container {
+			border-bottom: 1px solid #E0E0DA;
+  			padding-bottom: 20px;
+		}
+		.companyinfo{
+			h2{
+				color: #fff;
+			  	font-size: 27px;
+			  	text-transform: uppercase;
+			  	span{
+			  		color:#fff;
+			  	}
+			}
+			p{
+				color: #fff;
+				// font-family: 'Roboto', sans-serif;
+				font-size: 12px;
+				font-weight: 300;
+			}
+		}
+		.address {
+			margin-top: 20px;
+			position: relative;
+			overflow: hidden;
+			img{width: 100%}
+			p{
+				color: #fff;
+				// font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+				font-weight: 300;
+				left: 25px;
+				position: absolute;
+				top: 50px;
+			}
+		}
+	}
+	&-widget {
+		padding: 0 20px;
+		margin-bottom: 30px;
+		.container{
+			border-top: 1px solid #FFFFFF;
+  			padding-top: 15px;
+		}
+		.single-widget{
+			h2{
+				color: #fff;
+				font-family: 'Roboto', sans-serif;
+				font-size: 16px;
+				font-weight: 500;
+				margin-bottom: 22px;
+				text-transform: uppercase;				
+			}
+			ul{
+				li {
+					a {
+					color: #fff;
+				    // font-family: 'Roboto', sans-serif;
+				    font-size: 14px;
+				    font-weight: 300;
+				    padding: 5px 0;
+						i{ margin-right: 18px;}
+						&:hover{
+							background:none;
+							color:#99ff33;
+						}
+					}
+				} 
+			}
+		}
+	}
+	&-bottom {
+		padding: 0 20px;
+		background: #fff;
+  		padding-top: 10px;
+  		p{
+  			color: #fff;
+			// font-family: 'Roboto', sans-serif;
+			font-weight: 300;
+			margin-left: 15px;
+			span{
+				a{
+					color: #fff;
+					font-style: italic;
+					text-decoration: underline;
+				}
+			}
+  		}
+	}
+}
